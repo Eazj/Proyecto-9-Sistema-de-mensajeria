@@ -13,15 +13,15 @@ body {
 
 /*Zona Navbar*/
 .navbar {
-    background-color: aqua;
+    background-color: #FFF;
 }
 
 .foto-y-estado {
-    background-color: brown;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-right: 0.1rem solid #BEC1BB;
 }
 
 .img-photo {
@@ -44,10 +44,22 @@ body {
     height: 8vh;
     width: 8vw;
     gap: 1rem;
+    color: #949596;
 }
 
 .icono {
     font-size: 1.5rem;
+}
+.nombre-y-estado{
+    padding-left: 1vh;
+}
+.nombre{
+    font-size: 1.2rem;
+}
+.actividad{
+    font-size: 0.8rem;
+    color: #BEC1BB;
+    padding-top: 0.1rem;
 }
 
 /*Zona Boton*/
@@ -56,13 +68,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 15vh;
-    background-color: yellowgreen;
+    border-right: 0.1rem solid #BEC1BB;
+    border-top: 0.1rem solid #BEC1BB;
+    border-bottom: 0.1rem solid #BEC1BB;
 }
 
 .boton {
     height: 6vh;
     width: 12vw;
     font-size: 1rem;
+    background-color: #A491D2;
+    color: #FFF;
+    border: none;
 }
 
 /*Zona Contacto*/
@@ -70,8 +87,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: yellow;
     padding-left: 1vw;
+    border-right: 0.1rem solid #BEC1BB;
 }
 
 .contacto {
@@ -95,7 +112,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #FFF;
     flex-grow: 1;
 }
 
@@ -103,11 +120,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cadetblue;
 }
 
 .img-networking img {
-    height: 40vh;
+    height: 30vh;
     border-radius: 5%;
 }
 
