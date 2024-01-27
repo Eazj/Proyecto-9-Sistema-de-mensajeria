@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+}
+/*Zona Navbar*/
+.navbar{
+    background-color: aqua;
+}
+.foto-y-estado{
+    background-color: brown;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-photo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 8vw;
+    gap: 1rem;
+}
+.icono{
+    font-size: 1.5rem;
+}
+/*Zona Boton*/
+.boton-nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: yellowgreen;
+}
+.boton{
+    height: 6vh;
+    width: 12vw;
+    font-size: 1rem;
+}
+/*Zona Contacto*/
+.contactos{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+/*Zona Main*/
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.img-networking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.img-networking img{
+    height: 40vh;
+    border-radius: 5%;
+}
+.textos-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2vh;
+}
+.textos-main h1{
+    font-size: 3rem;
+}
+.textos-main p{
+    text-align: center;
+    width: 25vw;
+}
