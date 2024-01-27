@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     display: flex;
 }
+
 /*Zona Navbar*/
-.navbar{
+.navbar {
     background-color: aqua;
 }
-.foto-y-estado{
+
+.foto-y-estado {
     background-color: brown;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.img-photo{
+
+.img-photo {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     text-align: center;
+    padding-left: 1vw;
 }
-.iconos{
+
+.img-photo img {
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.iconos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,37 +45,52 @@ body{
     width: 8vw;
     gap: 1rem;
 }
-.icono{
+
+.icono {
     font-size: 1.5rem;
 }
+
 /*Zona Boton*/
-.boton-nuevo-chat{
+.boton-nuevo-chat {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 15vh;
     background-color: yellowgreen;
 }
-.boton{
+
+.boton {
     height: 6vh;
     width: 12vw;
     font-size: 1rem;
 }
+
 /*Zona Contacto*/
-.contactos{
+.contactos {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: yellow;
+    padding-left: 1vw;
 }
-.contacto{
+
+.contacto {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     height: 10vh;
 }
+
+.imagen-contacto img {
+    height: 7vh;
+    border-radius: 50%;
+}
+.contacto-mensaje{
+    padding-left: 1vh;
+}
+
 /*Zona Main*/
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,27 +98,32 @@ body{
     background-color: blueviolet;
     flex-grow: 1;
 }
-.img-networking{
+
+.img-networking {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: cadetblue;
 }
-.img-networking img{
+
+.img-networking img {
     height: 40vh;
     border-radius: 5%;
 }
-.textos-main{
+
+.textos-main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-top: 2vh;
 }
-.textos-main h1{
+
+.textos-main h1 {
     font-size: 3rem;
 }
-.textos-main p{
+
+.textos-main p {
     text-align: center;
     width: 25vw;
 }
